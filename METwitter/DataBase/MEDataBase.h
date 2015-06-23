@@ -26,15 +26,36 @@ typedef void(^MESuccessBlock)(NSError *error);
  */
 + (instancetype)initWithDBName:(NSString*)paramDBName error:(NSError**)error;
 
+/*Fetching all my wall enteries
+ @param paramBlock returns an array of enteries or error
+ */
 - (void)fetchWallEnteriesWithCompletionBlock:(MECompletionBlock)paramBlock;
 
+/*Fetching all wall enteries for specific user
+ @param paramUser  username
+ @param paramBlock returns an array of enteries or error
+ */
 - (void)fetchWallEnteriesForUser:(NSString*)paramUser withCompletionBlock:(MECompletionBlock)paramBlock;
 
+/*Fetching all wall enteries for specific user
+ @param paramEntery  entery for the wall
+ @param paramBlock returns success or failure
+ */
 - (void)sendMessage:(MEWallEntery*)paramEntery WithCompletionBlock:(MESuccessBlock)paramBlock;
 
+/*Fetches all users which are twitted once
+ @param paramBlock returns list of users
+ */
 - (void)getListOfUsersWithCompletionBlock:(MECompletionBlock)paramBlock;
 
-- (void)followUser:(NSString*)paramName withCompletionBlock:(MESuccessBlock)paramBlock;
+/*Follow specific user
+ @param paramUserName  user to be followed
+ @param paramBlock returns success or failure
+ */
+- (void)followUser:(NSString*)paramUserName withCompletionBlock:(MESuccessBlock)paramBlock;
 
+/*Gets list of subscribed users
+ @param paramBlock returns list of users
+ */
 - (void)getMyFriendsWithCompletionBlock:(MECompletionBlock)paramBlock;
 @end

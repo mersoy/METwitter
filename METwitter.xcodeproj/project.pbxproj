@@ -22,7 +22,6 @@
 		F088687D1B333CC600849F36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F088687C1B333CC600849F36 /* main.m */; };
 		F08868801B333CC600849F36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F088687F1B333CC600849F36 /* AppDelegate.m */; };
 		F088688B1B333CC600849F36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F088688A1B333CC600849F36 /* Images.xcassets */; };
-		F088689A1B333CC600849F36 /* METwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08868991B333CC600849F36 /* METwitterTests.m */; };
 		F08868A91B333F1C00849F36 /* MEWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08868A71B333F1C00849F36 /* MEWallViewController.m */; };
 		F08868AF1B333FC900849F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08868AD1B333FC900849F36 /* Main.storyboard */; };
 		F08868B01B333FC900849F36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08868AE1B333FC900849F36 /* LaunchScreen.xib */; };
@@ -73,7 +72,6 @@
 		F088688A1B333CC600849F36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F08868931B333CC600849F36 /* METwitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = METwitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08868981B333CC600849F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F08868991B333CC600849F36 /* METwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = METwitterTests.m; sourceTree = "<group>"; };
 		F08868A51B333F1C00849F36 /* MEWallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEWallViewController.h; path = ViewControllers/MEWallViewController.h; sourceTree = "<group>"; };
 		F08868A71B333F1C00849F36 /* MEWallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEWallViewController.m; path = ViewControllers/MEWallViewController.m; sourceTree = "<group>"; };
 		F08868AD1B333FC900849F36 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = StoryBoards/Main.storyboard; sourceTree = "<group>"; };
@@ -176,7 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				F08869371B33612E00849F36 /* METwitterDataProviderTest.m */,
-				F08868991B333CC600849F36 /* METwitterTests.m */,
 				F08868971B333CC600849F36 /* Supporting Files */,
 			);
 			path = METwitterTests;
@@ -385,7 +382,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F08869381B33612E00849F36 /* METwitterDataProviderTest.m in Sources */,
-				F088689A1B333CC600849F36 /* METwitterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

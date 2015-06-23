@@ -1,7 +1,7 @@
 # METwitter
 
 
-For posting to wall:
+<h2>For posting to wall:</h2>
 
 Login with “username”
 
@@ -15,7 +15,7 @@ If you exceed that limit “Tweet” button will be disabled.
 
 
 
-For Reading Wall:
+<h2>For Reading Wall:</h2>
 
 Login with “username”
 
@@ -30,7 +30,7 @@ Tab on any cell
 You will be landed on the Wall View of that selected users
 
 
-For Following User:
+<h2>For Following User:</h2>
 
 Login with “username”
 
@@ -49,7 +49,7 @@ Tab on the Subscribe button at top right
 If you navigate back on your wall.Now you will be seeing the entries including recently subscribed user. 
 
 
-Logout
+<h2>Logout</h2>
 
 
 You can logout to login with different user.

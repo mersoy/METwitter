@@ -56,5 +56,5 @@ You can logout to login with different user.
 
 —————————— o —————————
 
-For running tests. It required to select the Test config on project page info view.
+It requires to select the Test config on project page info view for running tests.
 I would write a build script for my CI job for running the test target on Jenkins like I usually do. 

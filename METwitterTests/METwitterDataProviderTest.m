@@ -27,10 +27,6 @@
     self.currentUserName = @"Muge";
     self.friendUserName = @"Ersoy";
     [[METwitterSession sharedInstance] setUsername:self.currentUserName];
-   // [[METwitterSession sharedInstance].dataBase emptyStorage];
-
-
-
 }
 
 - (void)tearDown {

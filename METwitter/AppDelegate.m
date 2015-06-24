@@ -9,12 +9,6 @@
 #import "AppDelegate.h"
 #import "METwitterDataProvider.h"
 
-@interface AppDelegate ()
-
-@property (strong, nonatomic) METwitterDataProvider *dataprovider;
-
-@end
-
 @implementation AppDelegate
 
 + (AppDelegate *)sharedAppDelegate

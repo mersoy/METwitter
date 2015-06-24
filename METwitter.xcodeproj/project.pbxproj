@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4B6971A21B385F69002B647B /* METest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B69719E1B385F69002B647B /* METest.xcdatamodeld */; };
 		4B6971A31B385F69002B647B /* METwitter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B6971A01B385F69002B647B /* METwitter.xcdatamodeld */; };
-		4BF9192B1B3804B9004EA229 /* METwitter_Debug_Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4BF9192A1B3804B9004EA229 /* METwitter_Debug_Config.xcconfig */; };
 		4BF9192E1B38063C004EA229 /* METwitterSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9192D1B38063C004EA229 /* METwitterSession.m */; };
 		4BF919341B380C7C004EA229 /* UIViewController+MessageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF919331B380C7C004EA229 /* UIViewController+MessageHandler.m */; };
 		4BF9193A1B3832ED004EA229 /* MEUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF919391B3832ED004EA229 /* MEUsersViewController.m */; };
@@ -26,7 +25,6 @@
 		F08868AF1B333FC900849F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08868AD1B333FC900849F36 /* Main.storyboard */; };
 		F08868B01B333FC900849F36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08868AE1B333FC900849F36 /* LaunchScreen.xib */; };
 		F08868B31B33411C00849F36 /* METwitterDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F08868B21B33411C00849F36 /* METwitterDataProvider.m */; };
-		F08868B71B3344FE00849F36 /* METwitter_Test_Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F08868B61B3344FE00849F36 /* METwitter_Test_Config.xcconfig */; };
 		F08868BA1B3349C000849F36 /* MELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08868B91B3349C000849F36 /* MELoginViewController.m */; };
 		F08869331B335DFD00849F36 /* MEDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F08869321B335DFD00849F36 /* MEDataBase.m */; };
 		F08869381B33612E00849F36 /* METwitterDataProviderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F08869371B33612E00849F36 /* METwitterDataProviderTest.m */; };
@@ -299,7 +297,7 @@
 		F088686F1B333CC500849F36 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = MugeErsoy;
 				TargetAttributes = {
 					F08868761B333CC500849F36 = {
@@ -335,10 +333,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F08868B71B3344FE00849F36 /* METwitter_Test_Config.xcconfig in Resources */,
 				F088688B1B333CC600849F36 /* Images.xcassets in Resources */,
 				F08868B01B333FC900849F36 /* LaunchScreen.xib in Resources */,
-				4BF9192B1B3804B9004EA229 /* METwitter_Debug_Config.xcconfig in Resources */,
 				F08868AF1B333FC900849F36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
